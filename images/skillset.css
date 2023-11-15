@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faafe8;
+}
+
+header {
+    text-align: center;
+    background-color: #3d5b6d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 80px;
+}
+.about, .education, .skills, .projects, .contact {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(243, 151, 218);
+    border: 1px solid #3d696d;
+    border-radius: 100px;
+}
+
+ul {
+    color: #010718;
+    list-style: disc;
+    padding-left: 20px;
+}
+li { 
+    color: #010718;
+    list-style: disc;
+    padding-left: 20px;
+}
+p {
+    color: #010718;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #3d666d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 80px;
+}
+
+/* Add more styling as needed */

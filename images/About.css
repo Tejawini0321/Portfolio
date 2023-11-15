@@ -1,0 +1,74 @@
+.body{
+    background-color: rgb(253, 167, 224);
+    position: relative;
+    height: 140vh;
+    width: 100%;
+}
+
+
+.circleimg{
+    border-radius: 100%;
+    display: block;
+    margin:20px auto;
+    padding-top: 7px;
+    
+    
+}   
+.circleimg:hover{
+    opacity: 33%;
+   
+}
+.Teju{
+    text-align: center;
+    font-size: 20px;
+}
+.teja{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(187, 42, 141);
+}
+.aboutbg h1{
+
+        margin: 0 110px;
+        font-size: 25px;
+    }
+
+
+.aboutbg h1:hover{
+    color: rgb(238, 57, 111)(255, 0, 17);
+}
+
+.sai{
+    padding: 10px;
+    color: rgb(66, 52, 52);
+    font-style: Times New Roman;
+    font-size: 20px;
+    margin: 0 110px;
+}
+span{
+    color:rgb(239, 10, 166) ;
+}
+
+@media only screen and (max-width: 800px){
+    .body{
+        background-color: rgb(253, 167, 167);
+        position: relative;
+        height: 230vh;
+        width: 100%;
+        padding: 10px;
+    }
+    .Teju{
+        text-align: center;
+        font-size: 20px;
+    }
+    .aboutbg h1{
+        margin: 0 110px;
+        font-size: 25px;
+    }
+    .aboutbg h1:hover{
+        color: red;
+    }
+    .sai{
+        padding: 0;
+    }
+}
